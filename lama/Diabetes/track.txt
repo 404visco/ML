@@ -1,0 +1,10 @@
+iterations=2000,learning_rate=0.03,depth=8,cat_features=cat_col, loss_function="Logloss", verbose=False, early_stopping_rounds=100
+roc train: 0.7463524292761352
+roc val: 0.7239835618101661
+selisih: 0.02236886746596911
+
+iterations=3000,learning_rate=0.05,depth=6,cat_features=cat_col, eval_metric= 'AUC', loss_function="Logloss", verbose=500, early_stopping_rounds=100
+roc train: 0.74889646022913
+roc val: 0.7249716361853407
+selisih: 0.023924824043789372
+
